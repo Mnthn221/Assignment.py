@@ -1,0 +1,13 @@
+"""
+PROGRAM TO FIND THE LENGTH
+OF A STRING USING RECURSION
+"""
+
+
+def lengt(s):
+    if s == '':
+        return 0
+    return 1 + lengt(s[1:])
+
+
+print(lengt('kamangi'))
